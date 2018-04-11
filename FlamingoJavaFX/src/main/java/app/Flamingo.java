@@ -14,9 +14,11 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import netgame.common.Client;
+import pkgCore.Action;
 import pkgCore.GamePlay;
 import pkgCore.Player;
 import pkgCore.Table;
+import pkgEnum.eAction;
 
 public class Flamingo extends Application {
 	
@@ -67,7 +69,7 @@ public class Flamingo extends Application {
 
 		ShowBlackJack();		
 		
-/*		if (!bStartHub) {
+		/*if (!bStartHub) {
 		
 			Action act = new Action();
 			act.setAction(eAction.TableState);
