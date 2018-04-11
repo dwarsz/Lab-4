@@ -22,7 +22,7 @@ public class BlackJackController implements Initializable {
 		this.FlamingoGame = FlamingoGame;
 	}
 
-	//finish
+	//finish this
 	public void btnSitLeave_Click(ActionEvent event)
 	{
 		//TODO: Implement this.  Create a new 'Action', send the 'Sit' or 'Leave' action to the Hub.
