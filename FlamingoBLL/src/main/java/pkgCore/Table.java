@@ -31,4 +31,8 @@ public class Table {
 	{
 		hmTablePlayers.clear();
 	}
+
+	public List<Player> GetTable(){
+		return (List<Player>) hmTablePlayers.values();
+	}
 }
